@@ -13,3 +13,10 @@ __pycache__/
 *.sqlite3
 .venv
 uv.lock
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
