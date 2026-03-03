@@ -18,6 +18,12 @@ exclude:
   - uv.lock
   - src/
   - tests/
+  - vendor/
+  - context/
+  - tasks/
+  - PROJECT.md
+  - scratchpad.md
+  - manifest.md
 
 # Permalinks
 permalink: /:year/:month/:day/:title/
