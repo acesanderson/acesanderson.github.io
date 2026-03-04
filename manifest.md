@@ -17,3 +17,11 @@ Format: YYYY-MM-DD | created|updated|removed | <path> | <what changed or why>
 - 2026-03-02 | updated | _config.yml | added vendor/, context/, tasks/, project mgmt files to exclude list
 - 2026-03-02 | updated | PROJECT.md | reflects current state: repo live, DNS configured, build in progress
 - 2026-03-02 | updated | scratchpad.md | roadmap updated with completed steps, current focus
+- 2026-03-04 | created | drafts/ | directory for post drafts
+- 2026-03-04 | updated | _config.yml | added drafts/ to Jekyll exclude list
+- 2026-03-04 | created | drafts/2024-06-03-embedding-benchmarks-lie.md | full draft v1, backdated to experiment date
+- 2026-03-04 | created | _posts/2024-06-03-embedding-benchmarks-lie.md | moved from drafts, added Jekyll front matter
+- 2026-03-04 | created | drafts/why-i-rewrote-langchain.md | idea seed
+- 2026-03-04 | created | drafts/mcp-is-wrong-tool-for-personal-projects.md | idea seed
+- 2026-03-04 | created | drafts/current-state-pattern-for-llm-chatbots.md | idea seed
+- 2026-03-04 | created | drafts/observable-llm-pipelines.md | idea seed

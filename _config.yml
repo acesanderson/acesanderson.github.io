@@ -24,6 +24,7 @@ exclude:
   - PROJECT.md
   - scratchpad.md
   - manifest.md
+  - drafts/
 
 # Permalinks
 permalink: /:year/:month/:day/:title/
