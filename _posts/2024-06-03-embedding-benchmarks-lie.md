@@ -1,10 +1,3 @@
-⚡ gemini-3.1-pro-preview | You are a precise editorial critic. Your job is to identify AI-generated writing patterns in a blog ... | 
-Cached (0.729s)
-⚡ claude-opus-4-6 | You are a precise line editor. Revise the blog post draft based on the critique below.  Rules: - Fix... | Cached 
-(0.034s)
-Final Draft:
- 
-
 ---
 layout: default
 title: "Embedding benchmarks lie (at least for your use case)"

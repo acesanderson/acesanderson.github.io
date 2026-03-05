@@ -4,7 +4,8 @@
       "WebFetch(domain:docs.github.com)",
       "Bash(models:*)",
       "Bash(~/blog/manifest.md:*)",
-      "Bash(pip show:*)"
+      "Bash(pip show:*)",
+      "Bash(uv run:*)"
     ]
   }
 }
