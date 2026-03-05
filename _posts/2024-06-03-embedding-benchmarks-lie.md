@@ -1,10 +1,17 @@
+⚡ gemini-3.1-pro-preview | You are a precise editorial critic. Your job is to identify AI-generated writing patterns in a blog ... | 
+Cached (0.729s)
+⚡ claude-opus-4-6 | You are a precise line editor. Revise the blog post draft based on the critique below.  Rules: - Fix... | Cached 
+(0.034s)
+Final Draft:
+ 
+
 ---
 layout: default
-title: "Embedding benchmarks lie — at least for your use case"
+title: "Embedding benchmarks lie (at least for your use case)"
 date: 2024-06-03
 ---
 
-# Embedding benchmarks lie — at least for your use case
+# Embedding benchmarks lie (at least for your use case)
 
 If you've spent any time building RAG systems, you've probably ended up on the MTEB
 leaderboard at some point. It's the standard reference for embedding model performance:
@@ -31,7 +38,7 @@ higher on MTEB. The Salesforce `SFR-Embedding-Mistral` model, for example, was n
 top of the leaderboard at the time. So were a few Arctic models. Switching to one of
 those should make my retrieval better, right?
 
-I decided to actually test it instead of assuming.
+So I decided to actually test it instead of assuming.
 
 ---
 
@@ -51,15 +58,15 @@ For each model, I embedded the course catalog in two ways: using short descripti
 (title + one-line summary) and long descriptions (full course abstract). That gave me
 fourteen collections to test.
 
-One wrinkle worth noting: ChromaDB has a built-in abstraction for custom embedding
+One thing I ran into: ChromaDB has a built-in abstraction for custom embedding
 models, but it requires you to pass the embedding model every time you access the
-collection — a constant source of mismatches and silent errors. I bypassed it entirely
+collection, which is a constant source of mismatches and silent errors. I bypassed it entirely
 and used the Ollama Python client directly, generating embeddings with `ollama.embeddings`
 for both ingestion and query. More explicit, fewer surprises.
 
-Then I wrote thirteen evaluation queries — a mix of specific skill queries ("Python
-async programming"), broader topic queries ("machine learning for beginners"), and
-role-based queries ("data engineering for analysts"). For each query, I retrieved the
+Then I wrote thirteen evaluation queries. Some were specific skill queries ("Python
+async programming"), some were broader topic queries ("machine learning for beginners"),
+and some were role-based ("data engineering for analysts"). For each query, I retrieved the
 top ten results from each collection, reviewed them manually, and scored them.
 
 The harness itself was straightforward:
@@ -86,14 +93,11 @@ ran overnight. I scored the results in a spreadsheet the next morning.
 
 ## The results
 
-`all-minilm` won hands-down.
-
-Not `all-minilm-latest` over `all-minilm-l6` — the difference between those two was
-negligible. I mean `all-minilm` as a family, beating everything else in the field.
+`all-minilm` won hands-down. Not a particular version — the difference between `l6` and `latest` was negligible — but the family as a whole, beating everything else in the field.
 
 `nomic` was decent. `mxbai` got a C. `arctic`, `e5`, and Salesforce were genuinely
 bad — returning irrelevant courses, misinterpreting queries, and in some cases returning
-results that seemed almost random.
+what looked like random results.
 
 The MTEB rankings, if you checked them at the time, told essentially the opposite story.
 The Salesforce model scored near the top. `all-minilm-l6` scored near the bottom.
@@ -114,7 +118,7 @@ dominates on tasks where both the query and the document are compact. The fancie
 may actually be penalized by the mismatch — they're looking for the kind of semantic
 density that a one-line course title doesn't provide.
 
-The `e5` and Salesforce models in particular seemed to strongly prefer short results that
+The `e5` and Salesforce models in particular strongly preferred short results that
 matched the query length, regardless of actual relevance. If your query was six words,
 you'd get back courses with six-word titles whether or not the content was relevant.
 

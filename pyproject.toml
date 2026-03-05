@@ -1,15 +1,23 @@
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
 [project]
 name = "blog"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "conduit"
+]
+
 [tool.hatch.build.targets.wheel]
 packages = ["src/blog"]
 sources = ["src"]
+
 [tool.hatch.build.targets.sdist]
 include = ["src/blog/py.typed"]
+
+[tool.uv.sources]
+conduit = { path = "../Brian_Code/conduit-project", editable = true }
