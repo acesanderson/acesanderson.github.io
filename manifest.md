@@ -23,5 +23,9 @@ Format: YYYY-MM-DD | created|updated|removed | <path> | <what changed or why>
 - 2026-03-04 | created | _posts/2024-06-03-embedding-benchmarks-lie.md | moved from drafts, added Jekyll front matter
 - 2026-03-04 | created | drafts/why-i-rewrote-langchain.md | idea seed
 - 2026-03-04 | created | drafts/mcp-is-wrong-tool-for-personal-projects.md | idea seed
+- 2026-03-04 | created | drafts/2025-11-14-mcp-is-wrong-tool-for-personal-projects.md | full draft v1, backdated to 2025-11-14
 - 2026-03-04 | created | drafts/current-state-pattern-for-llm-chatbots.md | idea seed
 - 2026-03-04 | created | drafts/observable-llm-pipelines.md | idea seed
+- 2026-03-04 | created | deslop/ | temporary working directory for deslop engine skill
+- 2026-03-04 | created | deslop/prompts/judge.j2 | pass 1: flags AI-isms by category, no rewriting
+- 2026-03-04 | created | deslop/prompts/reviser.j2 | pass 2: fixes only flagged items, returns full revised post

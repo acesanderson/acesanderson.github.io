@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:docs.github.com)",
-      "Bash(models:*)"
+      "Bash(models:*)",
+      "Bash(~/blog/manifest.md:*)"
     ]
   }
 }
