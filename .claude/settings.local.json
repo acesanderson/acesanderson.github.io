@@ -5,7 +5,17 @@
       "Bash(models:*)",
       "Bash(~/blog/manifest.md:*)",
       "Bash(pip show:*)",
-      "Bash(uv run:*)"
+      "Bash(uv run:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh api:*)",
+      "Bash(gh auth:*)",
+      "Bash(GITHUB_TOKEN=\"\" gh api:*)",
+      "Bash(gh repo:*)",
+      "Bash(ask:*)",
+      "Read(//tmp/**)",
+      "Read(//private/tmp/**)",
+      "Bash(git:*)"
     ]
   }
 }

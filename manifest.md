@@ -29,3 +29,8 @@ Format: YYYY-MM-DD | created|updated|removed | <path> | <what changed or why>
 - 2026-03-04 | created | deslop/ | temporary working directory for deslop engine skill
 - 2026-03-04 | created | deslop/prompts/judge.j2 | pass 1: flags AI-isms by category, no rewriting
 - 2026-03-04 | created | deslop/prompts/reviser.j2 | pass 2: fixes only flagged items, returns full revised post
+- 2026-03-04 | created | context/post-candidates.md | inventory of $BC projects and ~/.claude/skills as blog post candidates, with triage
+- 2026-03-04 | created | context/chain-project-history.md | full Chain project history from git research — raw material for "why I built my own LangChain" post
+- 2026-03-04 | created | context/conduit-project-history.md | full Conduit project history from git research — Chain v2 + rebrand; completes the arc
+- 2026-03-04 | created | drafts/2026-03-04-why-i-built-conduit.md | draft v1 of Chain/Conduit origin story post
+- 2026-03-05 | created | _posts/2026-03-04-why-i-built-conduit.md | deslopped final post — gemini3 judge, opus reviser
