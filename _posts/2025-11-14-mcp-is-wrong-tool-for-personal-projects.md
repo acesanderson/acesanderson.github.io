@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "I spent months building MCP. Then I abandoned it."
+title: "MCP is not the right tool for personal projects"
 date: 2025-11-14
 ---
 
