@@ -15,7 +15,8 @@
       "Bash(ask:*)",
       "Read(//tmp/**)",
       "Read(//private/tmp/**)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(/Users/bianders/.claude/skills/deslop/.venv/bin/python:*)"
     ]
   }
 }

@@ -55,6 +55,21 @@ obsidian-vault
 
 ---
 
+## Essays / Conceptual
+
+Ideas in this category are not project announcements — they're observations or arguments
+drawn from practice. Shorter form, more opinionated.
+
+### Annotation ops / eval methodology cluster
+
+| Title | Core argument |
+|---|---|
+| Field descriptions are annotation guidelines | Most rubrics name categories; field descriptions define behaviors. "Does this post lead with a product offer rather than a claim about the world?" vs. "is this promotional?" — that specificity is what takes IAA from 60% to 87%. You built this before you knew the term for it. |
+| Vendor drift is a guidelines problem | When you swap annotators and kappa drops, teams blame the vendor. The real culprit is rubric ambiguity — the old vendor learned intent through accumulated feedback; the new one has only the written guidelines. Whatever the old vendor "just knew" is documentation debt. |
+| You can't evaluate what you haven't annotated | Evals are downstream of ground truth. Ground truth requires annotation ops — the part everyone wants to automate first. LLM-as-judge doesn't replace the annotation layer, it inherits it. If your guidelines are vague, your automated eval is confidently vague. The human moves upstream, not out. |
+
+---
+
 ## Notes
 
 - Git history is the primary raw material for developer-story posts — walk commits to reconstruct decisions and pivots

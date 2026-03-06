@@ -18,6 +18,10 @@ Format: YYYY-MM-DD | created|updated|removed | <path> | <what changed or why>
 - 2026-03-02 | updated | PROJECT.md | reflects current state: repo live, DNS configured, build in progress
 - 2026-03-02 | updated | scratchpad.md | roadmap updated with completed steps, current focus
 - 2026-03-04 | created | drafts/ | directory for post drafts
+- 2026-03-05 | created | context/research-skills-v2-evals.md | Perplexity research (10 queries) for "The Skill Is the Eval" post — Skills v2 mechanics, LLM-as-judge, golden datasets, DSPy, eval mastery
+- 2026-03-05 | created | drafts/2026-03-05-the-skill-is-the-eval.md | first draft — Skills v2 news hook + evals as AI engineering practice argument
+- 2026-03-05 | updated | drafts/2026-03-05-the-skill-is-the-eval.md | expanded section 4 with evals.json example (commit-message skill), promptfoo reference, grader mechanics
+- 2026-03-05 | updated | drafts/2026-03-05-the-skill-is-the-eval.md | deslopped — 12 AI-isms flagged and revised by Gemini/Opus pipeline
 - 2026-03-04 | updated | _config.yml | added drafts/ to Jekyll exclude list
 - 2026-03-04 | created | drafts/2024-06-03-embedding-benchmarks-lie.md | full draft v1, backdated to experiment date
 - 2026-03-04 | created | _posts/2024-06-03-embedding-benchmarks-lie.md | moved from drafts, added Jekyll front matter
@@ -34,3 +38,4 @@ Format: YYYY-MM-DD | created|updated|removed | <path> | <what changed or why>
 - 2026-03-04 | created | context/conduit-project-history.md | full Conduit project history from git research — Chain v2 + rebrand; completes the arc
 - 2026-03-04 | created | drafts/2026-03-04-why-i-built-conduit.md | draft v1 of Chain/Conduit origin story post
 - 2026-03-05 | created | _posts/2026-03-04-why-i-built-conduit.md | deslopped final post — gemini3 judge, opus reviser
+- 2026-03-05 | updated | context/post-candidates.md | added Essays/Conceptual section: 3 annotation ops / eval methodology ideas
