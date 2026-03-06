@@ -22,6 +22,7 @@ Format: YYYY-MM-DD | created|updated|removed | <path> | <what changed or why>
 - 2026-03-05 | created | drafts/2026-03-05-the-skill-is-the-eval.md | first draft — Skills v2 news hook + evals as AI engineering practice argument
 - 2026-03-05 | updated | drafts/2026-03-05-the-skill-is-the-eval.md | expanded section 4 with evals.json example (commit-message skill), promptfoo reference, grader mechanics
 - 2026-03-05 | updated | drafts/2026-03-05-the-skill-is-the-eval.md | deslopped — 12 AI-isms flagged and revised by Gemini/Opus pipeline
+- 2026-03-05 | updated | _posts/2026-03-05-the-skill-is-the-eval.md | added YAML frontmatter (layout, title, date) and H1
 - 2026-03-04 | updated | _config.yml | added drafts/ to Jekyll exclude list
 - 2026-03-04 | created | drafts/2024-06-03-embedding-benchmarks-lie.md | full draft v1, backdated to experiment date
 - 2026-03-04 | created | _posts/2024-06-03-embedding-benchmarks-lie.md | moved from drafts, added Jekyll front matter

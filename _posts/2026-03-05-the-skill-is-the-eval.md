@@ -1,4 +1,10 @@
-# The Skill is the eval
+---
+layout: default
+title: "The Skill Is the Eval"
+date: 2026-03-05
+---
+
+# The Skill Is the Eval
 
 Anthropic shipped Skills v2 on March 3rd. The headline feature: evals are now built into the Skill Creator workflow. You write test cases — inputs, expected outputs, pass criteria — and the tool spins up six parallel agents (three with your skill, three without), runs them blind, and gives you a report: pass rate, latency delta, token cost. There's also automated trigger-description optimization, which iterates your skill's description against sample prompts until triggering accuracy improves.
 
