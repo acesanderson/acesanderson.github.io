@@ -40,3 +40,7 @@ Format: YYYY-MM-DD | created|updated|removed | <path> | <what changed or why>
 - 2026-03-04 | created | drafts/2026-03-04-why-i-built-conduit.md | draft v1 of Chain/Conduit origin story post
 - 2026-03-05 | created | _posts/2026-03-04-why-i-built-conduit.md | deslopped final post — gemini3 judge, opus reviser
 - 2026-03-05 | updated | context/post-candidates.md | added Essays/Conceptual section: 3 annotation ops / eval methodology ideas
+- 2026-03-07 | created | tasks/revise-skill-is-the-eval.md | revision task for the-skill-is-the-eval post — new example (deslop), description optimization loop section, intentional vs. opportunistic invocation finding from sec-filings eval run
+- 2026-03-07 | created | drafts/2026-03-07-prompts-are-parameters.md | first draft — DSPy intro post: prompt engineering history, metaprompting, DSPy + MIPROv2, DSPy tax, Daisy as finishing step, metric design
+- 2026-03-07 | updated | drafts/2026-03-07-prompts-are-parameters.md | deslopped — AI-isms flagged and revised by Gemini/Opus pipeline
+- 2026-03-07 | updated | context/post-candidates.md | added Claude Code workflow cluster: Spec-Driven Development with Claude Code

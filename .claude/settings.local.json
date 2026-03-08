@@ -16,7 +16,8 @@
       "Read(//tmp/**)",
       "Read(//private/tmp/**)",
       "Bash(git:*)",
-      "Bash(/Users/bianders/.claude/skills/deslop/.venv/bin/python:*)"
+      "Bash(/Users/bianders/.claude/skills/deslop/.venv/bin/python:*)",
+      "Bash(~/.claude/skills/deslop/.venv/bin/python:*)"
     ]
   }
 }

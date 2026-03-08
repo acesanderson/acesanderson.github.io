@@ -68,6 +68,12 @@ drawn from practice. Shorter form, more opinionated.
 | Vendor drift is a guidelines problem | When you swap annotators and kappa drops, teams blame the vendor. The real culprit is rubric ambiguity — the old vendor learned intent through accumulated feedback; the new one has only the written guidelines. Whatever the old vendor "just knew" is documentation debt. |
 | You can't evaluate what you haven't annotated | Evals are downstream of ground truth. Ground truth requires annotation ops — the part everyone wants to automate first. LLM-as-judge doesn't replace the annotation layer, it inherits it. If your guidelines are vague, your automated eval is confidently vague. The human moves upstream, not out. |
 
+### Claude Code workflow cluster
+
+| Title | Core argument |
+|---|---|
+| Spec-Driven Development with Claude Code | Tips + prompt examples for the Superpowers spec-driven workflow: writing plans, entering plan mode, executing against specs with review checkpoints. Practical guide for getting Claude Code to build non-trivial things reliably without going off the rails. |
+
 ---
 
 ## Notes
