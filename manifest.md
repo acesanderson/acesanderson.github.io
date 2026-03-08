@@ -44,3 +44,4 @@ Format: YYYY-MM-DD | created|updated|removed | <path> | <what changed or why>
 - 2026-03-07 | created | drafts/2026-03-07-prompts-are-parameters.md | first draft — DSPy intro post: prompt engineering history, metaprompting, DSPy + MIPROv2, DSPy tax, Daisy as finishing step, metric design
 - 2026-03-07 | updated | drafts/2026-03-07-prompts-are-parameters.md | deslopped — AI-isms flagged and revised by Gemini/Opus pipeline
 - 2026-03-07 | updated | context/post-candidates.md | added Claude Code workflow cluster: Spec-Driven Development with Claude Code
+- 2026-03-07 | updated | _posts/2026-03-07-prompts-are-parameters.md | fixed frontmatter: layout: post → layout: default

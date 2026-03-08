@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: default
 title: "Prompts Are Parameters"
 date: 2026-03-07
 ---
-
-# Prompts Are Parameters
 
 ## The Dark Ages of Prompt Engineering
 
