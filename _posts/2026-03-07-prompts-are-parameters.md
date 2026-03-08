@@ -4,7 +4,9 @@ title: "Prompts Are Parameters"
 date: 2026-03-07
 ---
 
-## The Dark Ages of Prompt Engineering
+# Prompts are parameters
+
+## The dark ages of prompt engineering
 
 There was a period, not that long ago, when prompt engineering felt like casting spells.
 
@@ -16,7 +18,7 @@ complete this task correctly". And of course, telling the LLM "You are a genius 
 The implicit assumption underneath all of it: the prompt *is* the product, and the craft is
 in writing it. 
 
-## The Metaprompt Era
+## The metaprompt era
 
 Serious practitioners figured out fairly quickly that you could use LLMs to write prompts.
 This felt like cheating at first, and then it felt obvious.
@@ -31,7 +33,7 @@ artifacts. The loop is: you have an intuition, you express it in text, you run i
 evaluate the output with your eyes, you adjust. Faster than the all-caps-IMPORTANT era, but
 still fundamentally a manual, intuition-driven craft.
 
-## What If You Just... Didn't Write the Prompt?
+## What if you just... didn't write the prompt?
 
 [DSPy](https://dspy.ai/) came out of Stanford around 2023 — older than most people realize,
 predating a lot of the current enthusiasm for "agentic" frameworks. Its central idea is
@@ -75,7 +77,7 @@ hours. The model you're targeting wrote that prompt, scored it on examples that 
 your actual data, and optimized it toward a metric you defined. It is, in a real sense, more
 yours than anything you would have written by hand.
 
-## The DSPy Tax
+## The DSPy tax
 
 DSPy does a lot. It's also a framework with opinions, and those opinions show up
 as friction in ways worth naming.
@@ -123,7 +125,7 @@ pipeline — from raw data to deployed module, DSPy the whole way through. Most 
 don't need this. They have a pipeline that mostly works and want a better prompt for one
 step in it. DSPy's surface area is larger than the problem.
 
-## Daisy: DSPy as a Finishing Step
+## Daisy: DSPy as a finishing step
 
 I needed something lighter, as an optimization check, a way to generate optimized prompts and move on.
 
@@ -186,7 +188,7 @@ The README puts it plainly: "Daisy is an offline prompt compiler, not an inferen
 framework." The non-goals list is deliberately long. This is a narrow tool. Narrow is the
 point.
 
-## Designing Your Metric Function
+## Designing your metric function
 
 The most challenging thing is defining success. The optimizer will find the prompt that maximizes whatever you
 measure. That's your metric function: given an input and a prediction, it returns a float.
@@ -247,7 +249,7 @@ like?" is hard. Operationalizing that into a function that can be called thousan
 and produce meaningful signal is harder. This is what ML practitioners call "loss function
 design" and it's hard work. The good news: you get to use LLMs to do it.
 
-## Where This Goes
+## Where this goes
 
 Anthropic has been making evals more approachable
 (see [previous post](https://acesanderson.dev/2026/03/05/the-skill-is-the-eval/)). DSPy has
