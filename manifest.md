@@ -77,3 +77,4 @@ Format: YYYY-MM-DD | created|updated|removed | <path> | <what changed or why>
 - 2026-07-15 | created | drafts/llm-stack-2026-beats.md | beat sheet for post — opening (token shock), turn (harness>spend), centralization, 3-layer stack tour, closing
 - 2026-07-15 | created | drafts/llm-stack-2026-v0.md | Phase 2 first draft, 1300w pattern post, followed guideline+research+profiles; deslop-scored and hand-revised for AI-isms
 - 2026-07-15 | created | _posts/2026-07-15-own-your-llm-stack.md | published: 'Own your LLM stack' — token-shock/Karp opening, harness>spend, 3-layer stack tour
+- 2026-07-15 | updated | manifest.md | published post, fixed missing ~/.gitconfig-local (SSH bypass via ~/.gitconfig-personal-ssh) that was blocking pushes on this machine
