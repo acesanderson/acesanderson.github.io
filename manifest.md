@@ -8,6 +8,12 @@ Format: YYYY-MM-DD | created|updated|removed | <path> | <what changed or why>
 - 2026-03-02 | updated | PROJECT.md | blog identity defined from goal intake + Code Learnings.md review
 - 2026-03-02 | updated | scratchpad.md | roadmap and content strategy drafted post identity definition
 - 2026-03-02 | created | context/jekyll-github-pages-tutorial.md | Gemini-generated Jekyll/GitHub Pages setup tutorial, annotated
+- 2026-04-21 | created | context/post-workflow.md | five-phase post pipeline (guideline → research → write → eval loop → deslop)
+- 2026-04-21 | created | context/post-guideline-template.md | per-post guideline template (topic, angle, arc, sources)
+- 2026-04-21 | created | context/profiles/structure_profile.md | hook types, body conventions, length targets, closing beat rules
+- 2026-04-21 | created | context/profiles/terminology_profile.md | banned words, active voice, hedging policy, Brian's markers
+- 2026-04-21 | created | context/profiles/character_profile.md | author identity, POV, credibility moves, anti-patterns
+- 2026-04-21 | updated | ~/.claude/skills/blog/SKILL.md | added Post Pipeline session type, On post idea hook, updated triggers
 - 2026-03-02 | created | _config.yml | Jekyll config — theme, excludes, permalink, kramdown
 - 2026-03-02 | created | Gemfile | github-pages gem
 - 2026-03-02 | created | .github/workflows/pages.yml | GitHub Actions build + deploy workflow
@@ -44,4 +50,30 @@ Format: YYYY-MM-DD | created|updated|removed | <path> | <what changed or why>
 - 2026-03-07 | created | drafts/2026-03-07-prompts-are-parameters.md | first draft — DSPy intro post: prompt engineering history, metaprompting, DSPy + MIPROv2, DSPy tax, Daisy as finishing step, metric design
 - 2026-03-07 | updated | drafts/2026-03-07-prompts-are-parameters.md | deslopped — AI-isms flagged and revised by Gemini/Opus pipeline
 - 2026-03-07 | updated | context/post-candidates.md | added Claude Code workflow cluster: Spec-Driven Development with Claude Code
+- 2026-03-09 | updated | context/post-candidates.md | added "The Context Window Is a Resource" post idea — tutorialize skill as case study, six CLAUDE.md principles
 - 2026-03-07 | updated | _posts/2026-03-07-prompts-are-parameters.md | fixed frontmatter: layout: post → layout: default
+- 2026-03-07 | updated | context/post-candidates.md | promoted claude-history skill to high interest; added technical architecture notes and post hook
+- 2026-03-09 | created | drafts/2026-03-09-online-education-age-of-ai.md | first draft — online education / AI post; angle: catalog-scraping insider + practitioner LLM tutoring vs. courses
+- 2026-03-09 | updated | drafts/2026-03-09-online-education-age-of-ai.md | deslopped — Gemini judge + Opus reviser; 11 AI-isms flagged and fixed
+- 2026-04-02 | created | ~/.claude/skills/blog/scripts/slop.py | AI writing scorer — rates posts on lexical/structural/rhetorical dimensions via Gemini structured output
+- 2026-04-02 | created | ~/.claude/skills/blog/deslop/__init__.py | deslop package init
+- 2026-04-02 | created | ~/.claude/skills/blog/deslop/score.py | AI writing scorer module — lean + verbose Pydantic models, two prompts, rate_blog_post()
+- 2026-04-02 | created | ~/.claude/skills/blog/deslop/fix.py | fix module — judge/revise/fix functions extracted from scripts/deslop.py
+- 2026-04-02 | created | ~/.claude/skills/blog/deslop/cli.py | unified deslop CLI — score/judge/fix subcommands with argparse
+- 2026-04-02 | updated | ~/.claude/skills/blog/pyproject.toml | added [project.scripts] entry point and setuptools package discovery
+- 2026-04-02 | updated | ~/.claude/skills/blog/SKILL.md | replaced Deslop + Slop sections with unified Deslop CLI reference
+- 2026-04-08 | updated | scratchpad.md | added Claude Patterns series concept to Content Strategy — format, audience, candidate patterns
+- 2026-04-08 | updated | context/post-candidates.md | added Claude Patterns series section with 7 pattern candidates and SPEC.md scope descriptions
+- 2026-04-08 | updated | scratchpad.md | Claude Patterns series — added ecosystem research: Agent Skills standard, dual SPEC.md+SKILL.md artifact format, structural constraints, superpowers caveat
+- 2026-04-08 | updated | context/post-candidates.md | Claude Patterns section — added ecosystem context, dual-artifact format, SKILL.md structural constraints
+- 2026-04-08 | updated | context/post-candidates.md | major expansion — 36 total patterns across Claude Code workflow, evals, LLM engineering, infrastructure; sourced from skills survey, $BC/$VIBE code survey, and claude-history session search
+- 2026-04-08 | updated | scratchpad.md | added Claude Patterns full inventory summary to roadmap section
+- 2026-04-30 | created | context/blog-skill.md | Copy of blog SKILL.md — reference for content generation automation
+- 2026-07-15 | created | drafts/llm-stack-2026-braindump.md | raw braindump for LLM stack post idea
+- 2026-07-15 | created | drafts/llm-stack-2026-guideline.md | Phase 0 guideline — angle: power to the people / avoid hyperscaler lock-in; pattern post
+- 2026-07-15 | created | drafts/llm-stack-2026-research.md | Phase 1 research substrate — Perplexity findings on harness>spend framing + inference economics/token pricing 2026
+- 2026-07-15 | updated | drafts/llm-stack-2026-research.md | added Microsoft/Claude Code, Uber, Karp 'tokenmax' sourcing for belt-tightening angle
+- 2026-07-15 | updated | drafts/llm-stack-2026-guideline.md | reworked opening beat + key points 1-2 to 'token shock not price hikes' framing per Brian's Microsoft/Karp direction
+- 2026-07-15 | created | drafts/llm-stack-2026-beats.md | beat sheet for post — opening (token shock), turn (harness>spend), centralization, 3-layer stack tour, closing
+- 2026-07-15 | created | drafts/llm-stack-2026-v0.md | Phase 2 first draft, 1300w pattern post, followed guideline+research+profiles; deslop-scored and hand-revised for AI-isms
+- 2026-07-15 | created | _posts/2026-07-15-own-your-llm-stack.md | published: 'Own your LLM stack' — token-shock/Karp opening, harness>spend, 3-layer stack tour
